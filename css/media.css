@@ -1,0 +1,350 @@
+@media (max-width: 1140px) {
+  .question,
+  .contact {
+    padding: 50px 0 40px;
+  }
+  .price {
+    padding: 50px 0 0;
+  }
+  .callback {
+    background-size: 320px;
+    background-position: 80% 0;
+  }
+  .callback__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    margin-right: 35%;
+  }
+  .callback__text {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .header__btn {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+  .header__mail {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header__btn {
+    display: none;
+  }
+  .header__logo {
+    width: auto;
+  }
+  .header__inner {
+    padding: 40px 0;
+  }
+  .menu-burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .menu {
+    display: none;
+  }
+  .stages__block {
+    padding: 35px 28px;
+  }
+  .stages__title {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  .stages__num {
+    font-size: 88px;
+    margin-right: 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  .question__block {
+    padding: 3% 1%;
+  }
+  .question__block-title {
+    font-size: 16px;
+  }
+  .contact {
+    background-image: none;
+  }
+  .footer__mail {
+    display: none;
+  }
+}
+
+@media (max-width: 930px) {
+  .header__social-links {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .question__block {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 49%;
+            flex: 0 0 49%;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    width: 49%;
+    margin-bottom: 2%;
+    padding: 3% 2%;
+  }
+  .question__block-text {
+    font-size: 16px;
+  }
+  .question__block-title {
+    font-size: 18px;
+  }
+  .stages__blocks {
+    margin-bottom: 20px;
+  }
+  .stages__block {
+    width: 85%;
+    min-width: 290px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 45px 30px;
+  }
+  .stages__block:nth-child(4) {
+    background: transparent;
+    color: #8387db;
+  }
+  .stages__block:nth-child(3) {
+    background-color: #8387db;
+    color: #fff;
+  }
+}
+
+@media (max-width: 768px) {
+  .brief__inner {
+    padding: 40px 30px 50px;
+  }
+  .contact {
+    text-align: center;
+  }
+  .contact__social-links {
+    margin: 0 auto;
+  }
+  .contact__requisites {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .title {
+    margin-bottom: 55px;
+  }
+  .header__inner {
+    padding: 25px 0;
+  }
+  .header__mail {
+    display: none;
+  }
+  .navbar__logo {
+    top: 36px;
+  }
+  .navbar__list {
+    top: 116px;
+  }
+  .callback {
+    background-image: none;
+  }
+  .callback__inner {
+    margin-right: 0;
+    padding: 35px 0;
+  }
+  .callback__text {
+    margin-right: 0;
+    max-width: 400px;
+  }
+  .price__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .price__col {
+    max-width: 100%;
+    margin: 0 15px 10px;
+  }
+  .price__list {
+    margin: 25px 0 15px;
+  }
+  .price__btn {
+    margin-top: 15px;
+    max-width: 250px;
+  }
+  .footer__inner {
+    padding: 50px 0;
+  }
+  .footer__tel {
+    display: none;
+  }
+}
+
+@media (max-width: 680px) {
+  .header__mail {
+    display: none;
+  }
+  .brief__select-button-name {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact__requisites {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact__requisite {
+    width: auto;
+    margin: 0 auto;
+  }
+  .contact__requisite_tel {
+    margin: 0 auto 15px;
+  }
+  .brief__item {
+    width: 100%;
+  }
+  .brief__name, .brief__tel {
+    max-width: 240px;
+  }
+  .footer__social-links {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .stages__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    padding: 10%;
+  }
+  .stages__title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .stages__num {
+    margin: 0;
+  }
+  .stages__content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .first-screen__title {
+    font-size: 26px;
+  }
+  .callback__text {
+    width: 100%;
+  }
+  .callback__form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .callback__submit {
+    margin: 25px auto 0;
+  }
+  .callback__tel {
+    margin: 0;
+  }
+  .brief__select-buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .question__block {
+    padding: 20px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    width: 100%;
+    max-width: 290px;
+    margin: 0 auto 20px;
+  }
+  .price__block {
+    padding: 30px 10px 20px;
+  }
+  .price__select-buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .price__select-button {
+    margin-right: 0;
+  }
+  .price__title {
+    font-size: 22px;
+  }
+  .price__btn {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .header__callback-contacts {
+    display: none;
+  }
+  .brief__inner {
+    padding: 35px 15px 40px;
+  }
+  .brief__questions {
+    margin: 0;
+  }
+  .brief__item {
+    margin: 15px 0 10px;
+  }
+  .brief__select-button-name {
+    margin-right: 0;
+    padding: 10px 0;
+  }
+  .brief__textarea {
+    font-size: 15px;
+  }
+  .brief__submit {
+    margin: 15px auto 0;
+  }
+  .footer__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__logo {
+    margin: 0 10px 15px 0;
+  }
+}
